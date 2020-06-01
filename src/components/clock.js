@@ -1,26 +1,30 @@
 import React, { Component } from "react";
-import Moment from "moment";
-import ReactDOM from "react-dom";
 import Date from "react-dom";
 
 class Clock extends React.Component {
-    render() {
-      return (
-        <div>
-          <h1>Clock</h1>
-          <h2>It is {this.props.date.toLocaleTimeString()}.</h2>
-        </div>
-      );
-    }
+  constructor(props) {
+      super(props);
+      this.state = {
+          isClockOn: true
+      }
   }
-  
-  function tick() {
-    ReactDOM.render(
-      <Clock date={new Date()} />,
-      document.getElementById('root')
+  tick = () => {
+    this.setState(tick => ({
+        isClockOn: !prevState.isClockOn
+    }));
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Clock</h1>
+        <div><h1>{this.props.date.toLocaleTimeString()}</h1></div>
+      </div>
+
     );
   }
+}
   
-  setInterval(tick, 1000);
-
 export default Clock
+
+

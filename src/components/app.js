@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Moment from "moment";
 
 import NavigationContainer from '../navigation/navigation-container';
 import Home from './home';
