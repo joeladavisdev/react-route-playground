@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Date from "react-dom";
 
 class Clock extends React.Component {
-  constructor(props) {
-      super(props);
+  constructor() {
+      super();
       this.state = {
           isClockOn: true
       }

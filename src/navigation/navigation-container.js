@@ -19,6 +19,9 @@ class NavigationContainer extends Component {
                         <NavLink to="/toggle">Toggle</NavLink>
                     </li>
                     <li>
+                        <NavLink to="/align">Align</NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/change-color">Change Color</NavLink>
                     </li>
                     <li>
