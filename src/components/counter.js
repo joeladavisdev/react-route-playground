@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Counter() {
     const [count, setCount] = useState(0);
+    //const [stateName, stateUpdateFunctionName] = Initial state
     
     return (
         <div className="wrapper">
