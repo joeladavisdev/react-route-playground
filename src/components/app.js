@@ -10,6 +10,7 @@ import Counter from './counter';
 import FontSizer from './font-sizer';
 import ShowHide from './show-hide';
 import Toggle from './toggle';
+import FetchData from './fetch-data';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/font-sizer" component={FontSizer} />
         <Route path="/show-hide" component={ShowHide} />
         <Route path="/toggle" component={Toggle} />
+        <Route path="/fetch-data" component={FetchData} />
       </Switch>
     </Router>  )
 }

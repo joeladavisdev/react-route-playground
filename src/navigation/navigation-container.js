@@ -30,6 +30,9 @@ class NavigationContainer extends Component {
                     <li>
                         <NavLink to="/show-hide">Show Hide</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/fetch-data">Fetch Data</NavLink>
+                    </li>
                 </ul>
             </div>
         )
