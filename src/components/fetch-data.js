@@ -17,6 +17,7 @@ export default function FetchData() {
     
     return (
         <div>
+        <button>Fetch Data</button>
             {
                 posts.map(post => {
                     return (
