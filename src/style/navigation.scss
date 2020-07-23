@@ -3,6 +3,19 @@
     justify-content: space-between;
     padding: 30px;
     background-color: #6796b3;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 50px;
+      padding-right: 50px;
+    }
     
   
     .nav-link-wrapper {
